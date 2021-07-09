@@ -1,4 +1,4 @@
-#include "crcfast.h"
+#include "crc32_fast.h"
 #include <stdio.h>
 #include <stdlib.h>
 

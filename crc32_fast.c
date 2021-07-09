@@ -1,4 +1,4 @@
-#include "crcfast.h"
+#include "crc32_fast.h"
 
 /** Create the lookup table, this will consume 1KB */
 static const uint32_t Crc32Lookup[16][256] = {
