@@ -742,7 +742,7 @@ static inline uint32_t swap(uint32_t x) {
 }
 
 #ifdef CRC32_WORD
-uint32_t crc32_4bytes(const void *data, size_t length, uint32_t previousCrc32) {
+uint32_t crc32_4bytes(const void *data, size_t length) {
     uint32_t crc = 0xFFFFFFFF;
     const uint32_t *current = (const uint32_t *)data;
 
